@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#000080" >
+
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1/13/2015"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/list_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Provo"/>
+
+
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/list_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="$54.96" />
+
+
+
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+                <TextView
+                    android:id="@+id/list_gallons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="10 Gallons"
+                    />
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+            <TextView
+                android:id="@+id/list_odometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 miles"
+                android:textSize="20dp"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+            <TextView
+                android:id="@+id/list_lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx"
+                android:textSize="20dp"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout>
+                <TextView
+                    android:id="@+id/list_lng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nnn"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
